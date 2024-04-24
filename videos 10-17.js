@@ -13,9 +13,11 @@ ${NumberOne}`);
 
 //-------------------------------------------------------
 
-//Assi 2
-console.log(elzero.innerHTML);
-console.log(typeof elzero);
+//Assigment 2
+//console.log(elzero.innerHTML);
+//console.log(typeof elzero);
 
 //------------------------------------------------------
 
+//Assigment 3
+console.log("`I'm In\n \\\\ \n Love \\\\ \"\"\" ''' \n ++ With ++ \n \\\"\"\"\\\"\"\"\n\"\"JavaScript\"\"``");
