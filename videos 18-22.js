@@ -36,3 +36,17 @@ console.log(+num2 + +num2); // 20
 console.log(Number(num2) + Number(num2)); // 20
 console.log(num2 * 2); // 20
 console.log(num2 - 1 + ++num2); // 20
+
+//-------------------------------------------------------------------------
+
+//Assiment 4
+
+let points = 10;
+
+points += 3;
+
+console.log(points); // 13
+
+points -= 5;
+
+console.log(points); // 8;
