@@ -25,3 +25,14 @@ console.log(num + 2 + true); // 6
 
 // Solution Six
 console.log(true + true + true + true + true + true); // 6
+
+//----------------------------------------------------------------------
+
+//Assiment 3
+
+let num2 = "10";
+
+console.log(+num2 + +num2); // 20
+console.log(Number(num2) + Number(num2)); // 20
+console.log(num2 * 2); // 20
+console.log(num2 - 1 + ++num2); // 20
