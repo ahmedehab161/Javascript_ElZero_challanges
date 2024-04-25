@@ -23,8 +23,19 @@ console.log(Math.round(Math.log10(Number.MAX_SAFE_INTEGER))); // 16
 //-------------------------------------------------------------------
 // Assiment 4
 
+let myVar = "100.56789 Views";
 
+console.log(Number.parseInt(myVar)); // 100
+console.log(Number.parseFloat(myVar).toFixed(2)); // 100.57
+
+//-------------------------------------------------------------------
 // Assiment 5
+
+let num = 10;
+
+console.log(10 - Number.isInteger(num) * 8); // 2
+
+//-------------------------------------------------------------------
 // Assiment 6
 // Assiment 7
 
