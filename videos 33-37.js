@@ -76,3 +76,74 @@ num7 !== num5 && typeof num7 != typeof num6
 // ("30 Is Larger Than 10 And Type string Not The Same Type As number");
 // ("30 Is Larger Than 10 And Value Is The Same As 30 And Type string Not The Same Type As number");
 // ("{num3} Value And Type Is Not The Same As {num1} And Type Is Not The Same As {num2}");
+//----------------------------------------------------------------------------------------------------------------------
+// Assiment 4
+
+// Edit What You Want Here
+
+let num8 = 15;
+let num9 = 10;
+let num10 = 15;
+let num11 = 41;
+
+/*
+  Do Not Edit Below This Line
+  Needed Output
+  True 7 Times
+*/
+
+// Condition 1
+
+if (num8 > num9) {
+  console.log("True");
+} else {
+  console.log("False");
+}
+
+// Condition 2
+
+if (num8 > num9 && num8 < num11) {
+  console.log("True");
+} else {
+  console.log("False");
+}
+
+// Condition 3
+
+if (num8 > num9 && num8 === num10) {
+  console.log("True");
+} else {
+  console.log("False");
+}
+
+// Condition 4
+
+if ((num8 + num9) < num11) {
+  console.log("True");
+} else {
+  console.log("False");
+}
+
+// Condition 5
+
+if ((num8 + num10) < num11) {
+  console.log("True");
+} else {
+  console.log("False");
+}
+
+// Condition 6
+
+if ((num8 + num9 + num10) < num11) {
+  console.log("True");
+} else {
+  console.log("False");
+}
+
+// Condition 7
+    //45         //30        //10
+if (num11 - (num8 + num10) + num9 === 21) {
+  console.log("True");
+} else {
+  console.log("False");
+}
