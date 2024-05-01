@@ -7,7 +7,7 @@ console.log(userName.substring(0 , 1).toLowerCase()); // e
 console.log(userName.substr(0 , 1) .toLowerCase()); // e
 console.log(userName.charAt(0).toLowerCase()); // e
 console.log(userName[0].toLowerCase().repeat(3)); // eee
-
+//----------------------------------------------------------
 // Assiment 2
 
 let word = "Elzero";

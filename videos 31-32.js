@@ -8,7 +8,7 @@ console.log(!(-50 >= +"-40")); // true
 console.log (!(10 >= -"-40")); // true
 console.log(!("10" != 10)); // true
 console.log(!(20 == false)); // true
-
+//-------------------------------------------------
 // Assiment 2
 
 let num1 = 10;
@@ -20,7 +20,7 @@ console.log(!(num1 > num2)); // true
 console.log(num1 <= num2); // true
 console.log(!(num1 === num2)); // true
 console.log(num1 != num2); // true
-
+//-------------------------------------------------
 // Assiment 3
 
 let a = 20;
