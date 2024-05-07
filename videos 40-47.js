@@ -38,6 +38,32 @@ let needle = "JS";
 let haystack = ["PHP", "JS", "Python"];
 
 // Write 3 Solutions
+//First Solution
+
+let search1 = haystack.indexOf(needle);
+if (search1 == 1) {
+    console.log("Found");
+} else {
+    console.log("Not Found");
+}
+//--------------------------------------------
+//Second Solution
+
+let search2 = haystack.includes(needle);
+if (search2) {
+    console.log("Found");
+} else {
+    console.log("Not Found");
+}
+//--------------------------------------------
+// Third Solution
+
+let search3 = haystack.lastIndexOf(needle);
+if (search3 == 1) {
+  console.log("Found");
+} else {
+  console.log("Not Found");
+}
 //--------------------------------------------------------------------------------------------------------
 //Assignment 6
 // let arr1 = ["A", "C", "X"];
