@@ -66,10 +66,28 @@ if (search3 == 1) {
 }
 //--------------------------------------------------------------------------------------------------------
 //Assignment 6
-// let arr1 = ["A", "C", "X"];
-// let arr2 = ["D", "E", "F", "Y"];
-// let allArrs = [];
+/*
+            --  Note  --
+  This Is Not The Only Answer For This Task
+  But It Is The Fastest
+  If You Have Alternative Solution With The Same Output
+  And The Same Requirments Then Goo :)
+  And Share It Have A Nice Coding Day ;)
+*/
+let arr1 = ["A", "C", "X"];
+let arr2 = ["D", "E", "F", "Y"];
+let allArrs = [];
 
-// // Your Code Here
+// Your Code Here
+allArrs = [
+  arr2.slice(
+    arr1.length - arr2.length + arr1.length - arr2.length,
+    arr1.length - arr2.length
+  ),
+  arr1.slice(arr1.length - arr2.length),
+  arr2.slice(arr1.length - arr2.length),
+];
 
-// console.log(allArrs); // fxy
+allArrs = allArrs.join("").toLowerCase();
+
+console.log(allArrs); // fxy
