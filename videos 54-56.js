@@ -69,6 +69,19 @@ for (let i = 0; i < friends.length; i++){
 let start4 = 0;
 let swappedName = "elZerO";
 
+swappedName = swappedName.split('');
+
+for (start4; start4 < swappedName.length; start4++){
+    if (swappedName[start4] == swappedName[start4].toLowerCase())
+    {
+        swappedName[start4] = swappedName[start4].toUpperCase();
+    }
+    else
+    {
+        swappedName[start4] = swappedName[start4].toLowerCase();
+    }
+}
+console.log(swappedName.join(""));
 // Output
 ("ELzERo");
 //-------------------------------------------------------------------------------------------------------------------------
