@@ -63,7 +63,15 @@ for (let i = 0; i < friends.length; i++){
             friends.splice(i , 1);
         }
         console.log(i + 1 + " => " + friends[i]);
-  }
+}
+// Output
+/*
+    1 => Sayed
+    2 => Eman
+    3 => Mahmoud
+    4 => Osama
+    5 => Sameh
+*/
 //-------------------------------------------------------------------------------------------------------------------------
 //Assignment 6
 let start4 = 0;
@@ -84,4 +92,26 @@ for (start4; start4 < swappedName.length; start4++){
 console.log(swappedName.join(""));
 // Output
 ("ELzERo");
+//-------------------------------------------------------------------------------------------------------------------------
+//Assignment 7
+let start5 = 0;
+let mix = [1, 2, 3, "A", "B", "C", 4];
+
+/* 
+Here We Pre-increment For The Start5 Var To Start From Index " 1 "
+Instead Of " 0 "
+*/
+for (++start5; start5 < mix.length; start5++){
+    if (typeof mix[start5] === 'string')
+    {
+        continue;
+    }
+
+    console.log(mix[start5]);
+}
+
+// Output
+2;
+3;
+4;
 //-------------------------------------------------------------------------------------------------------------------------
